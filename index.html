@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto web</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#banner">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="banner">
+        <h1>Bienvenidos a nuestra página</h1>
+        <h2>Este es nuestro banner</h2>
+      </section>
+      <section id="productos">
+        <h2>Productos</h2>
+        <div class="grid">
+          <div class="producto">
+            <img src="producto.jpeg" alt="Imagen de producto" />
+            <h3>Producto 1</h3>
+            <p>$100</p>
+            <a href="https://api.whatsapp.com/send?phone=34981237747&text=Hola"
+              >Comprar</a
+            >
+          </div>
+          <div class="producto">
+            <img src="producto.jpeg" alt="Imagen de producto" />
+            <h3>Producto 1</h3>
+            <p>$100</p>
+            <a href="https://api.whatsapp.com/send?phone=34981237747&text=Hola"
+              >Comprar</a
+            >
+          </div>
+          <div class="producto">
+            <img src="producto.jpeg" alt="Imagen de producto" />
+            <h3>Producto 1</h3>
+            <p>$100</p>
+            <a href="https://api.whatsapp.com/send?phone=34981237747&text=Hola"
+              >Comprar</a
+            >
+          </div>
+          <div class="producto">
+            <img src="producto.jpeg" alt="Imagen de producto" />
+            <h3>Producto 1</h3>
+            <p>$100</p>
+            <a href="https://api.whatsapp.com/send?phone=34981237747&text=Hola"
+              >Comprar</a
+            >
+          </div>
+          <div class="producto">
+            <img src="producto.jpeg" alt="Imagen de producto" />
+            <h3>Producto 1</h3>
+            <p>$100</p>
+            <a href="https://api.whatsapp.com/send?phone=34981237747&text=Hola"
+              >Comprar</a
+            >
+          </div>
+          <div class="producto">
+            <img src="producto.jpeg" alt="Imagen de producto" />
+            <h3>Producto 1</h3>
+            <p>$100</p>
+            <a href="https://api.whatsapp.com/send?phone=34981237747&text=Hola"
+              >Comprar</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form
+          action="https://formsubmit.co/gabialberini733@gmail.com"
+          method="POST"
+        >
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" required />
+
+          <label for="message">Mensaje:</label>
+          <textarea name="message" rows="4" required></textarea>
+
+          <button>Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>2024 Proyecto web - Incluyeme</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
